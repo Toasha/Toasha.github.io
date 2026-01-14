@@ -802,3 +802,17 @@ ul {
         transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
     }
 }
+
+/* Repository Icon */
+.repo-icon {
+    font-size: 1.2rem;
+    margin-left: 8px;
+    color: var(--color-text-muted);
+    transition: all 0.3s ease;
+    vertical-align: middle;
+}
+
+.product-card:hover .repo-icon {
+    color: var(--color-primary);
+    transform: rotate(15deg) scale(1.1);
+}
